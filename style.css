@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #025E73;
 }
 
@@ -23,7 +24,7 @@ body {
     background-color: #262525;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    font-size: 50px;
+    font-size: 80px;
     color: aliceblue;
     justify-content: end;
     align-items: center;
@@ -49,7 +50,7 @@ button {
     font-size: 30px;
     border: none;
 }
-button.function {
+button.function, .eval {
     color: #025E73;
 
 }
