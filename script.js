@@ -23,7 +23,7 @@ DECIMAL.addEventListener("click", () =>{
 EQUALS.addEventListener("click", () =>{
     const ARRAY = DISPLAY.textContent.split(" ");
     console.log(ARRAY[1] +" "+ ARRAY[0]+ " "+ ARRAY[2]);
-    result = operate(ARRAY[1], parseFloat(ARRAY[0]), parseFloat(ARRAY[2])).toPrecision(2);
+    result = operate(ARRAY[1], parseFloat(ARRAY[0]), parseFloat(ARRAY[2]));
     console.log(result);
     DISPLAY.textContent = result;
 })
