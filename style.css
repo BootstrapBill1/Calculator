@@ -33,7 +33,7 @@ body {
 
 .buttons {
     display: grid;
-    height: inherit;
+    height: 100%;
     justify-content: center;
     margin: 15px;
     margin-bottom: 30px;
